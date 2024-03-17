@@ -17,17 +17,4 @@ def count_digits(n):
                count+=1
        return count
 
-n = 12345
-print("Number of digits in ",n," is ",count_digits(n)) 
-# %%
-nn = int(input("Enter a number: "))  
-n = str(nn)
-c = 0
 
-for i in n:
-    digit = int(i)  
-    if digit % 2 == 0:  
-        c += 1
-
-print(c)
-# %%
